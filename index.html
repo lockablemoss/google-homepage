@@ -12,6 +12,10 @@
         .bar {
             text-align: center;
             color: black;
+            border-radius: 100px;
+            padding-left: 80px;
+            padding-right: 80px;
+            height: 35px;
         }
         .navright {
             text-align: right;
@@ -26,24 +30,24 @@
             background-color: gray;
             bottom: 0;
             position: fixed;
-            width: 100%
+            width: 100%;
             
         }
     </style>
 </head>
 
 <body>
-    <nav><a href="#">About</a> &nbsp; <a href="#">Store</a> <span class="navright"><a href="#">Gmail</a> &nbsp; <a href="#">Images</a> &nbsp; <button type="button">Sign In</button> </span></nav> 
+    <nav><small><a href="#">About</a> &nbsp; <a href="#">Store</a> <span class="navright"><a href="#">Gmail</a> &nbsp; <a href="#">Images</a> &nbsp; <button type="button">Sign In</button></small> </span></nav> 
     <img class="img" style="text-align: center;" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"> 
     <br>
     <div>
     <form class="bar">
-        <input type="text">
+        <input placeholder="Search" class="bar" type="text">
     </form>
     </div>
 </body>
 
 <footer>
-    <nav class="footer"><a href="#">Advertising</a> &nbsp; <a href="#">Business</a> &nbsp; <a href="#">How Search Works</a><span class="navright"><a href="#">Privacy</a> &nbsp; <a href="#">Terms</a> &nbsp; <a href="#">Settings</a></span></nav> 
+    <nav class="footer"><small><a href="#">Advertising</a> &nbsp; <a href="#">Business</a> &nbsp; <a href="#">How Search Works</a><span class="navright"><a href="#">Privacy</a> &nbsp; <a href="#">Terms</a> &nbsp; <a href="#">Settings</a></small></span></nav> 
 </footer>
 
